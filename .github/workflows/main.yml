@@ -2,7 +2,7 @@ name: EBAC CI
 
 on:
 	push:
-		branches: [gh_action]
+		branches: [gh_action-1]
 	
 	workflow_dispatch:
 
