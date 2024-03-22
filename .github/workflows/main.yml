@@ -2,7 +2,7 @@ name: EBAC CI
 
 on:
 	push:
-		branches: [gh_action]
+		branches: [gh_actions]
 	
 	workflow_dispatch:
 
@@ -24,4 +24,4 @@ jobs:
 			uses: peaceiris/action-gh-page@v3
 	 		with:
 				github_token: ${{ secret.GITHUB_TOKEN }}
-				publish_dir: ./public
+				publish_dir: ./mochawesome-report
